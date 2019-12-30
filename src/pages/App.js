@@ -24,18 +24,18 @@ class App extends Component {
         {/* 頭部區 */}
         <header className={styles.header}>
           <div className={styles.box}>
-            <Link to ="/"><img className={styles.boxLeft} src={require("../assets/images/logo.png")} alt=""/></Link>
+            <Link to ="/home"><img className={styles.boxLeft} src={require("../assets/images/logo.png")} alt=""/></Link>
             <div className={styles.boxRight}>
               <NavLink to ="/work" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>Work</p></NavLink>
               <NavLink to ="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>About</p></NavLink>
-              <Link to ="/" className={location.pathname==="/" ? styles.boxTestActive : styles.boxTest}><p>Home</p></Link>
+              <Link to ="/home" className={location.pathname==="/home" ? styles.boxTestActive : styles.boxTest}><p>Home</p></Link>
             </div>
           </div>
         </header>
 
         {/* 內容區 */}
         <section className={styles.content}>
-          <Route path="/" exact component={ HomePage }/>
+          <Route path="/home" exact component={ HomePage }/>
           <Route path="/about" exact component={ AboutPage }/>
           <Route path="/work" exact component={ Work }/>
           {/* <Route path="/work/:id" exact component={ WorkPageDetail }/> */}
