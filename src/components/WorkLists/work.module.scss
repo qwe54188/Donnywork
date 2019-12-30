@@ -1,0 +1,47 @@
+.workList {
+    width: 100%;
+    padding: 0 4% 2% 4%;
+    box-sizing: border-box;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        li {
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            text-align: center;
+            background-color: #fff;
+            margin: 30px 10px 0 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05);
+            transition: 0.4s;
+            overflow: hidden;
+            &:hover {
+                box-shadow: rgba(45, 45, 45, 0.05) 0px 2px 2px, rgba(49, 49, 49, 0.05) 0px 4px 4px, rgba(42, 42, 42, 0.05) 0px 8px 8px, rgba(32, 32, 32, 0.05) 0px 16px 16px, rgba(49, 49, 49, 0.05) 0px 32px 32px, rgba(35, 35, 35, 0.05) 0px 64px 64px;
+            }
+            a {
+                text-decoration: none;
+            }
+            img {
+                width: 100%;
+                height: 265px;
+            }
+
+            .workbrief {
+                h3 {
+                    padding: 4px 0 8px 0;
+                    border-bottom: 1px solid #eee;
+                }
+                p {
+                    padding: 4px 0 5px 0;
+                    font-size: 12px;
+                    font-weight: 200;
+                    color: #b7c3cb;
+                }
+            }
+        }
+    }
+}

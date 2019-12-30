@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "微軟正黑體";
+  .header {
+    height: 60px;
+    border-bottom: 1px solid #FE6E64;
+    background-color: #fff;
+    position: relative;
+    z-index: 999;
+    .box {
+      width: 85%;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      .boxLeft {
+        background-size: 30px auto;
+        width: 30px;
+        height: 30px
+      }
+      .boxRight {
+        display: flex;
+        p {
+          font-size: 14px;
+          font-weight: 300;
+          letter-spacing: 0.8px;
+          margin: 0 10px;
+          cursor: pointer;
+        }
+        .boxTest {
+          color: #6d6d6d;
+          &:hover {
+            color: #FE6E64;
+          }
+        }
+        .boxTestActive {
+          color: #FE6E64;
+        }
+      }
+    }
+  }
+
+  .content {
+    flex-grow: 1;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 61px - 40px);
+  }
+  
+  .footer {
+    position: relative;
+    z-index: 998;
+    background-color: #fff;
+    border-top: 1px solid #f2f2f2;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
