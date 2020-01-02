@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7085a6c5d88abd06b09147b3f512075",
+    "revision": "6fb11b9be7d83e90c2db82a05f7aceb2",
     "url": "/Donnywork/index.html"
   },
   {
-    "revision": "4ae7888b8f0211a1ee3c",
+    "revision": "31ed4af1d20fec48e0ec",
     "url": "/Donnywork/static/css/main.dfab033e.chunk.css"
   },
   {
-    "revision": "915911023f648c4d792c",
-    "url": "/Donnywork/static/js/2.ca551dd4.chunk.js"
+    "revision": "dcbf31472487faa93037",
+    "url": "/Donnywork/static/js/2.47b9eee1.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/Donnywork/static/js/2.ca551dd4.chunk.js.LICENSE"
+    "url": "/Donnywork/static/js/2.47b9eee1.chunk.js.LICENSE"
   },
   {
-    "revision": "4ae7888b8f0211a1ee3c",
-    "url": "/Donnywork/static/js/main.efca5c07.chunk.js"
+    "revision": "31ed4af1d20fec48e0ec",
+    "url": "/Donnywork/static/js/main.d0bcb5ec.chunk.js"
   },
   {
     "revision": "a3c4e44cef57a0cfb702",
@@ -86,33 +86,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6f53b69038db9c678a156d1319772a6b",
     "url": "/Donnywork/static/media/user.6f53b690.png"
-  },
-  {
-    "revision": "455ec3172481e28d7414714870a9434a",
-    "url": "/Donnywork/static/media/works_app1.455ec317.jpg"
-  },
-  {
-    "revision": "d7281bd1c78a5185227cd05095486c5c",
-    "url": "/Donnywork/static/media/works_app2.d7281bd1.jpg"
-  },
-  {
-    "revision": "4e0ee1382ce7c0829af3d9a4069563ab",
-    "url": "/Donnywork/static/media/works_app3.4e0ee138.jpg"
-  },
-  {
-    "revision": "4649fd8443eeea4bdc7d8e18b94154c3",
-    "url": "/Donnywork/static/media/works_app4.4649fd84.jpg"
-  },
-  {
-    "revision": "b9490db24faff81cbc027fe3bf67df66",
-    "url": "/Donnywork/static/media/works_app5.b9490db2.png"
-  },
-  {
-    "revision": "b7ecfc899ea417d73af97e0b32b8e584",
-    "url": "/Donnywork/static/media/works_app6.b7ecfc89.jpg"
-  },
-  {
-    "revision": "dc5e5579a80b8c61e46f4e3f546a4661",
-    "url": "/Donnywork/static/media/works_app7.dc5e5579.png"
   }
 ]);
