@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Donnywork/static/css/main.81c05411.chunk.css",
-    "main.js": "/Donnywork/static/js/main.5af0768a.chunk.js",
-    "main.js.map": "/Donnywork/static/js/main.5af0768a.chunk.js.map",
+    "main.css": "/Donnywork/static/css/main.9f1dc475.chunk.css",
+    "main.js": "/Donnywork/static/js/main.b43864ff.chunk.js",
+    "main.js.map": "/Donnywork/static/js/main.b43864ff.chunk.js.map",
     "runtime-main.js": "/Donnywork/static/js/runtime-main.98f172d8.js",
     "runtime-main.js.map": "/Donnywork/static/js/runtime-main.98f172d8.js.map",
-    "static/js/2.efd79aea.chunk.js": "/Donnywork/static/js/2.efd79aea.chunk.js",
-    "static/js/2.efd79aea.chunk.js.map": "/Donnywork/static/js/2.efd79aea.chunk.js.map",
+    "static/js/2.7752a569.chunk.js": "/Donnywork/static/js/2.7752a569.chunk.js",
+    "static/js/2.7752a569.chunk.js.map": "/Donnywork/static/js/2.7752a569.chunk.js.map",
     "index.html": "/Donnywork/index.html",
-    "precache-manifest.9a8defcd1ab5dd21c0220fbd6f4fe10d.js": "/Donnywork/precache-manifest.9a8defcd1ab5dd21c0220fbd6f4fe10d.js",
+    "precache-manifest.608fd8c9089ee567c9815b1ed4e76bee.js": "/Donnywork/precache-manifest.608fd8c9089ee567c9815b1ed4e76bee.js",
     "service-worker.js": "/Donnywork/service-worker.js",
-    "static/css/main.81c05411.chunk.css.map": "/Donnywork/static/css/main.81c05411.chunk.css.map",
-    "static/js/2.efd79aea.chunk.js.LICENSE": "/Donnywork/static/js/2.efd79aea.chunk.js.LICENSE",
+    "static/css/main.9f1dc475.chunk.css.map": "/Donnywork/static/css/main.9f1dc475.chunk.css.map",
+    "static/js/2.7752a569.chunk.js.LICENSE": "/Donnywork/static/js/2.7752a569.chunk.js.LICENSE",
     "static/media/app_1.png": "/Donnywork/static/media/app_1.52ea1328.png",
     "static/media/app_2.png": "/Donnywork/static/media/app_2.5f8070b5.png",
     "static/media/app_3.png": "/Donnywork/static/media/app_3.49f864b1.png",
@@ -27,12 +27,13 @@
     "static/media/header-07.png": "/Donnywork/static/media/header-07.99c21632.png",
     "static/media/header-08.png": "/Donnywork/static/media/header-08.e8b3228b.png",
     "static/media/header-09.png": "/Donnywork/static/media/header-09.7a023257.png",
-    "static/media/user.png": "/Donnywork/static/media/user.6f53b690.png"
+    "static/media/user.png": "/Donnywork/static/media/user.6f53b690.png",
+    "static/media/works_app1.jpg": "/Donnywork/static/media/works_app1.455ec317.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.98f172d8.js",
-    "static/js/2.efd79aea.chunk.js",
-    "static/css/main.81c05411.chunk.css",
-    "static/js/main.5af0768a.chunk.js"
+    "static/js/2.7752a569.chunk.js",
+    "static/css/main.9f1dc475.chunk.css",
+    "static/js/main.b43864ff.chunk.js"
   ]
 }
