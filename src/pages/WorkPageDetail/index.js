@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link, } from 'react-router-dom';
 import styles from './detail.module.scss';
 
-export default ()=>{
-    return <div className={ styles.wrap }>
-        <div className={ styles.box }>
-            <div className={ styles.title }>
-                <h1>StaffTraveler</h1>
-                <p>Sep 2017 to Aug 2018</p>
-            </div>
-            <section className={ styles.content }>
-                <p>w1w1w1w1</p>
-            </section>
+// export default (props) => {
+//     alert(props.match.params.id)
+export default ({ match: { params }, imgs }) => {
+    const imgDataIdx = imgs.findIndex(_img => _img.id === Number(params.id))
+    return imgDataIdx > -1 ? (<div className={styles.wrap}>
+        <img src={imgs[imgDataIdx].cover} alt="" />
+        <div className={styles.box}>
+            {imgs[imgDataIdx].title}
         </div>
-    </div>
-} 
+        <Link to={`/work/${Number(params.id) - 1}`}><div className={styles.btn}>prev</div></Link>
+        <Link to={`/work/${Number(params.id) + 1}`}><div className={styles.btn2}>next</div></Link>
+    </div>) : < div > not found image</div >
+}
