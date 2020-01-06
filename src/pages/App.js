@@ -15,21 +15,46 @@ import WorkPageDetail from'./WorkPageDetail';
 // import WorkPageDetail7 from'./WorkPageDetail/WorkPageDetail_7';
 
 class App extends Component {
+    
+    componentDidMount(){
+      let navIcon = document.getElementById("navIcon");
+      let zoom = document.getElementById('zoom');
+        console.log(navIcon);
+        console.log(zoom);
+        navIcon.addEventListener('click', function(){
+          zoom.classList.toggle('active');
+        }, false);
+    }
+
     render(){
       const { location }=this.props;
-      console.log(this.props)
+
       return (
       <div className={styles.App}>
         
         {/* 頭部區 */}
         <header className={styles.header}>
           <div className={styles.box}>
-            <Link to ="/"><img className={styles.boxLeft} src={require("../assets/images/logo.png")} alt=""/></Link>
+            <Link to ="/" className={styles.boxLeft}><img src={require("../assets/images/logo.png")} alt=""/></Link>
             <div className={styles.boxRight}>
+              <a href="https://www.lymma.net/designer/profile/4517" className={styles.ui100Text}>UI100</a>
               <NavLink to ="/work" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>Work</p></NavLink>
               <NavLink to ="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>About</p></NavLink>
               <Link to ="/" className={location.pathname==="/" ? styles.boxTestActive : styles.boxTest}><p>Home</p></Link>
             </div>
+
+            {/* 漢堡選單 */}
+            <div className={styles.navIcon} id="navIcon">
+              <div className={styles.navBar}></div>
+              <div className={styles.navBar}></div>
+              <div className={styles.navBar}></div>
+            </div>
+            <ul className={ styles.navZoomout } id="zoom">
+              <a href="https://www.lymma.net/designer/profile/4517" className={styles.ui100Text} ><li style={{borderTop: '1px solid #eee',color:'#2aaaff'}}>UI100</li></a>
+              <Link to ="/" className={location.pathname==="/" ? styles.boxTestActive : styles.liTest}><li>Home</li></Link>
+              <NavLink to ="/about" activeClassName={styles.boxTestActive} className={styles.liTest}><li>About</li></NavLink>
+              <NavLink to ="/work" activeClassName={styles.boxTestActive} className={styles.liTest}><li>Work</li></NavLink>
+            </ul>
           </div>
         </header>
 
