@@ -5,6 +5,7 @@ import HomePage from'./HomePage';
 import AboutPage from'./AboutPage';
 import Work from'./Workpage';
 import WorkPageDetail from'./WorkPageDetail';
+import './nav.scss';
 //內容頁面------------------------------------
 // import WorkPageDetail1 from'./WorkPageDetail/WorkPageDetail_1';
 // import WorkPageDetail2 from'./WorkPageDetail/WorkPageDetail_2';
@@ -19,12 +20,19 @@ class App extends Component {
     componentDidMount(){
       let navIcon = document.getElementById("navIcon");
       let zoom = document.getElementById('zoom');
-        console.log(navIcon);
-        console.log(zoom);
-        navIcon.addEventListener('click', function(){
-          zoom.classList.toggle('active');
-        }, false);
+      let navLi = document.getElementsByClassName('navLi');
+ 
+      navIcon.addEventListener('click', function(){
+        zoom.classList.toggle('active');
+        navIcon.classList.toggle('cross');
+      }, false);
+
+      zoom.addEventListener('click', function(){
+        zoom.classList.remove('active');
+        navIcon.classList.remove('cross');
+      });
     }
+    
 
     render(){
       const { location }=this.props;
@@ -44,16 +52,16 @@ class App extends Component {
             </div>
 
             {/* 漢堡選單 */}
-            <div className={styles.navIcon} id="navIcon">
-              <div className={styles.navBar}></div>
-              <div className={styles.navBar}></div>
-              <div className={styles.navBar}></div>
+            <div className="navIcon" id="navIcon">
+              <div className="navBar" > </div>
+              <div className="navBar" ></div>
+              <div className="navBar" ></div>
             </div>
-            <ul className={ styles.navZoomout } id="zoom">
-              <a href="https://www.lymma.net/designer/profile/4517" className={styles.ui100Text} ><li style={{borderTop: '1px solid #eee',color:'#2aaaff'}}>UI100</li></a>
-              <Link to ="/" className={location.pathname==="/" ? styles.boxTestActive : styles.liTest}><li>Home</li></Link>
-              <NavLink to ="/about" activeClassName={styles.boxTestActive} className={styles.liTest}><li>About</li></NavLink>
-              <NavLink to ="/work" activeClassName={styles.boxTestActive} className={styles.liTest}><li>Work</li></NavLink>
+            <ul className= "navZoomout" id="zoom">
+              <a href="https://www.lymma.net/designer/profile/4517" className={styles.ui100Text} ><li className="navLi" style={{borderTop: '1px solid #eee',color:'#2aaaff'}}>UI100</li></a>
+              <Link to ="/" className={location.pathname==="/" ? styles.boxTestActive : styles.boxTest}><li className="navLi">Home</li></Link>
+              <NavLink to ="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><li className="navLi">About</li></NavLink>
+              <NavLink to ="/work" activeClassName={styles.boxTestActive} className={styles.boxTest}><li className="navLi">Work</li></NavLink>
             </ul>
           </div>
         </header>
