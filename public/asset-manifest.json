@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Donnywork/static/css/main.9f1dc475.chunk.css",
+    "main.js": "/Donnywork/static/js/main.b43864ff.chunk.js",
+    "main.js.map": "/Donnywork/static/js/main.b43864ff.chunk.js.map",
+    "runtime-main.js": "/Donnywork/static/js/runtime-main.98f172d8.js",
+    "runtime-main.js.map": "/Donnywork/static/js/runtime-main.98f172d8.js.map",
+    "static/js/2.7752a569.chunk.js": "/Donnywork/static/js/2.7752a569.chunk.js",
+    "static/js/2.7752a569.chunk.js.map": "/Donnywork/static/js/2.7752a569.chunk.js.map",
+    "index.html": "/Donnywork/index.html",
+    "precache-manifest.a1d6dc0048a370b127319211680b72ba.js": "/Donnywork/precache-manifest.a1d6dc0048a370b127319211680b72ba.js",
+    "service-worker.js": "/Donnywork/service-worker.js",
+    "static/css/main.9f1dc475.chunk.css.map": "/Donnywork/static/css/main.9f1dc475.chunk.css.map",
+    "static/js/2.7752a569.chunk.js.LICENSE": "/Donnywork/static/js/2.7752a569.chunk.js.LICENSE",
+    "static/media/app_1.png": "/Donnywork/static/media/app_1.52ea1328.png",
+    "static/media/app_2.png": "/Donnywork/static/media/app_2.5f8070b5.png",
+    "static/media/app_3.png": "/Donnywork/static/media/app_3.49f864b1.png",
+    "static/media/app_4.png": "/Donnywork/static/media/app_4.d780e9b1.png",
+    "static/media/app_5.png": "/Donnywork/static/media/app_5.bfe4de5a.png",
+    "static/media/app_6.png": "/Donnywork/static/media/app_6.bff6e648.png",
+    "static/media/app_7.png": "/Donnywork/static/media/app_7.680c2c49.png",
+    "static/media/header-02.png": "/Donnywork/static/media/header-02.d8a52587.png",
+    "static/media/header-03.png": "/Donnywork/static/media/header-03.8c30bc53.png",
+    "static/media/header-04.png": "/Donnywork/static/media/header-04.5eb22568.png",
+    "static/media/header-05.png": "/Donnywork/static/media/header-05.cdeaed55.png",
+    "static/media/header-06.png": "/Donnywork/static/media/header-06.b0c533e1.png",
+    "static/media/header-07.png": "/Donnywork/static/media/header-07.99c21632.png",
+    "static/media/header-08.png": "/Donnywork/static/media/header-08.e8b3228b.png",
+    "static/media/header-09.png": "/Donnywork/static/media/header-09.7a023257.png",
+    "static/media/user.png": "/Donnywork/static/media/user.6f53b690.png",
+    "static/media/works_app1.jpg": "/Donnywork/static/media/works_app1.455ec317.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98f172d8.js",
+    "static/js/2.7752a569.chunk.js",
+    "static/css/main.9f1dc475.chunk.css",
+    "static/js/main.b43864ff.chunk.js"
+  ]
+}
