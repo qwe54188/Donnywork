@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 import './detail.scss';
-import WorkLists from '../../components/WorkLists';
-import WorkData from '../works.js';
 
 // export default (props) => {
 //     alert(props.match.params.id)
@@ -17,7 +15,6 @@ export default ({ match: { params }, imgs}) => {
     };
 
     const imgDataIdx = imgs.findIndex(_img => _img.id === Number(params.id))
-    const number = false
 
     return imgDataIdx > -1 ? (<div className="wrap">
          <div className="detail-box">

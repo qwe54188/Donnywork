@@ -30,6 +30,7 @@ class App extends Component {
     const { location } = this.props;
 
     return (
+      <HashRouter>
       <div className={styles.App}>
 
         {/* 頭部區 */}
@@ -60,23 +61,23 @@ class App extends Component {
 
         {/* 內容區 */}
         <section className={styles.content}>
-          <HashRouter>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/Donnywork" exact component={HomePage} />
-            <Route path="/about" exact component={AboutPage} />
-            <Route path="/work" exact component={Work} />
-            <Route path="/work/:id" exact
-              component={(routerProps) => <WorkPageDetail imgs={WorkDetailImg} {...routerProps} />}
-            />
-          </HashRouter>
+        
+              <Route path="/" exact component={HomePage} />
+              <Route path="/Donnywork" exact component={HomePage} />
+              <Route path="/about" exact component={AboutPage} />
+              <Route path="/work" exact component={Work} />
+              <Route path="/work/:id" exact
+                component={(routerProps) => <WorkPageDetail imgs={WorkDetailImg} {...routerProps} />}
+              />
+          
         </section>
 
         {/* 底部區 */}
         <footer className={styles.footer}>
           <p>qwe54188@gmail.com</p>
         </footer>
-
       </div>
+      </HashRouter>
     );
   }
 }
