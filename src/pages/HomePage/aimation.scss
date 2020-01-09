@@ -81,7 +81,7 @@
 .textOpenBox {
     .textOpen {
         position: absolute;
-        top: 10%;
+        top: 5%;
         left: 10%;
         font-size: 20vmin;
         animation: end 0.8s 1.2s linear;
@@ -90,6 +90,9 @@
         margin: 0;
         width: 20%;
         text-align: center;
+        @media screen and(max-width: 700px) {
+            top: 10%;
+        }   
 
         &-O {
             animation-delay: 1.5s;

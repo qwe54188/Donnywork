@@ -9,7 +9,7 @@
     border-bottom: 1px solid #FE6E64;
     background-color: #fff;
     position: relative;
-    z-index: 999;
+    z-index: 10;
 
     .box {
       position: relative;
@@ -64,12 +64,12 @@
     color: #B6BCBF;
 
     &:hover {
-      color: #000;
+      color: #333;
     }
   }
 
   .boxTestActive {
-    color: #000;
+    color: #333;
   }
 
   .content {
@@ -81,7 +81,7 @@
 
   .footer {
     position: relative;
-    z-index: 998;
+    z-index: 10;
     background-color: #fff;
     border-top: 1px solid #f2f2f2;
     height: 40px;
