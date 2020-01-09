@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './App.module.scss';
-import { Link, Route, NavLink, withRouter } from 'react-router-dom';
+import { Link, Route, NavLink, withRouter, HashRouter } from 'react-router-dom';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import Work from './Workpage';
@@ -60,13 +60,15 @@ class App extends Component {
 
         {/* 內容區 */}
         <section className={styles.content}>
-          <Route path="/" exact component={HomePage} />
-          <Route path="/Donnywork" exact component={HomePage} />
-          <Route path="/about" exact component={AboutPage} />
-          <Route path="/work" exact component={Work} />
-          <Route path="/work/:id" exact
-            component={(routerProps) => <WorkPageDetail imgs={WorkDetailImg} {...routerProps} />}
-          />
+          <HashRouter>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/Donnywork" exact component={HomePage} />
+            <Route path="/about" exact component={AboutPage} />
+            <Route path="/work" exact component={Work} />
+            <Route path="/work/:id" exact
+              component={(routerProps) => <WorkPageDetail imgs={WorkDetailImg} {...routerProps} />}
+            />
+          </HashRouter>
         </section>
 
         {/* 底部區 */}

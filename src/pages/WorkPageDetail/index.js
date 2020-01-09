@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 import './detail.scss';
+import WorkLists from '../../components/WorkLists';
+import WorkData from '../works.js';
 
 // export default (props) => {
 //     alert(props.match.params.id)
@@ -15,6 +17,7 @@ export default ({ match: { params }, imgs}) => {
     };
 
     const imgDataIdx = imgs.findIndex(_img => _img.id === Number(params.id))
+    const number = false
 
     return imgDataIdx > -1 ? (<div className="wrap">
          <div className="detail-box">
@@ -25,8 +28,9 @@ export default ({ match: { params }, imgs}) => {
                 <p style={{color:"#ff3319"}}>{imgs[imgDataIdx].showText}</p>
             </div>
         <div className="nextBtnBox"> 
-            <Link to={`/work/${Number(params.id) - 1}`}><div className="btn">prev</div></Link>
-            <Link to={`/work/${Number(params.id) + 1 ? Number(params.id) +1 : Number(params.id) === -1 }`}><div className="btn2">next</div></Link>
+            <Link to={`/work/${Number(params.id) > 1 ?  Number(params.id) -1 : 25}`}><div className="btn">prev</div></Link>
+            <Link to={`/work/${Number(params.id) < 25 ?  Number(params.id) +1 : 1}`}><div className="btn2">next</div></Link>
+            {/* <img src={imgs[imgDataIdx +1 ].cover} alt="" /> */}
         </div>
         <section className="content">
             <div className="bigIcon" id="bigIcon" onClick={ bigIcon }></div>
@@ -38,5 +42,5 @@ export default ({ match: { params }, imgs}) => {
             <img src={imgs[imgDataIdx].cover} alt="" />
         </section>
         </div>
-    </div>) : < div > not found image</div>
+    </div>) : < div > not find </div>
 }
