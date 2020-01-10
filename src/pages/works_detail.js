@@ -11,31 +11,31 @@ export default [{
         id: 2,
     },
     {
-        title: "UI100計算機",
+        title: "UI100 計算機",
         brief: "在操作上制作可往右滑直接選擇需要的符號，不需再一直把手機擺橫的，可直接選擇輕鬆又快速。",
         cover: require("../assets/images/working/works_app3.jpg"),
         id: 3,
     },
     {
-        title: "UI100用戶資料",
+        title: "UI100 用戶資料",
         brief: "在畫面上讓用戶者能容易了解自己目前的追蹤人數，也能輕易的選擇想觀看的照片，和快速瀏攬留言與回覆。",
         cover: require("../assets/images/working/works_app4.jpg"),
         id: 4,
     },
     {
-        title: "UI100項目管理",
+        title: "UI100 項目管理",
         brief: "運用簡單的色彩，讓用戶者能一事情重要性來分配顏色，也能讓畫面感更豐富，操作也製作的淺顯易懂。",
         cover: require("../assets/images/working/works_app5.png"),
         id: 5,
     },
     {
-        title: "UI100信用卡",
+        title: "UI100 信用卡",
         brief: "讓客戶能挑選自己適用的信用卡，商品價格要分明，操作上簡單，喜歡就直接按打勾購買。",
         cover: require("../assets/images/working/works_app6.jpg"),
         id: 6,
     },
     {
-        title: "UI100鬧鐘",
+        title: "UI100 鬧鐘",
         brief: "設計黑白簡單風格，背景會隨著時間也跟著改變",
         cover: require("../assets/images/working/works_app7.png"),
         id: 7,
@@ -44,6 +44,8 @@ export default [{
         title: "G CASINO",
         brief: "運用新的排版方式製作與以往不同的遊戲網頁，將選項欄放在下方，好讓用戶能了解自己目前在什麼區， 將重點都擺放至中間，讓玩家能更專注於網頁。",
         cover: require("../assets/images/working/works_web1.jpg"),
+        showText:"*點擊圖片連結作品", 
+        link: "http://art-demo.sog88.net/personal_demo/donny/20181018_%E7%8F%BE%E9%87%91%E7%B6%B2%E5%85%AC%E7%89%88_%E5%88%87%E7%89%88/",
         id: 8,
     },
     {
@@ -62,6 +64,8 @@ export default [{
         title: "CASINO",
         brief: "參考歐美遊戲網頁來製作，顏色上選擇較活潑色，按鈕製作漂浮感，使畫面整體看起來更生動。",
         cover: require("../assets/images/working/works_web4.jpg"),
+        showText:"*點擊圖片連結作品", 
+        link: "http://art-demo.sog88.net/personal_demo/donny/20180820_%E7%8F%BE%E9%87%91%E7%B6%B2%E5%88%87%E7%89%88%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%20OK/",
         id: 11,
     },
     {
@@ -72,9 +76,17 @@ export default [{
     },
     {
         title: "競賽GAME",
-        brief: "左邊欄位能自己調整想先觀賞的項目順序，而中間項目匡也會跟整更換，讓用戶能更自由選擇自己想要的項目。。",
+        brief: "左邊欄位能自己調整想先觀賞的項目順序，而中間項目匡也會跟整更換，讓用戶能更自由選擇自己想要的項目。",
         cover: require("../assets/images/working/works_web6.jpg"),
         id: 13,
+    },
+    {
+        title: "Atrust-金融網站",
+        brief: "FinTech網頁，首頁特效設計像駭客任務一堆數字，像金融網頁對數字的敏銳度，也讓客人一進到這網頁更有感覺。",
+        cover: require("../assets/images/working/works_web7.jpg"),
+        showText:"*點擊圖片連結作品", 
+        link: "http://www.atrustek.com/cis/#/home",
+        id: 14,
     },
     {
         title: "PK08",
@@ -82,7 +94,7 @@ export default [{
         cover: require("../assets/images/working/works_other1.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/pk08/",
-        id: 14,
+        id: 15,
     },
     {
         title: "S77",
@@ -90,7 +102,7 @@ export default [{
         cover: require("../assets/images/working/works_other2.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/s77/",
-        id: 15,
+        id: 16,
     },
     {
         title: "DS17",
@@ -98,7 +110,7 @@ export default [{
         cover: require("../assets/images/working/works_other3.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/ds17/",
-        id: 16,
+        id: 17,
     },
     {
         title: "30678",
@@ -106,7 +118,7 @@ export default [{
         cover: require("../assets/images/working/works_other4.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/30678/",
-        id: 17,
+        id: 18,
     },
     {
         title: "AHA8",
@@ -114,7 +126,7 @@ export default [{
         cover: require("../assets/images/working/works_other5.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/aha8/",
-        id: 18,
+        id: 19,
     },
     {
         title: "故障燈",
@@ -122,7 +134,7 @@ export default [{
         cover: require("../assets/images/working/works_4041.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/404_light/",
-        id: 19,
+        id: 20,
     },
     {
         title: "船兒漂泊",
@@ -130,7 +142,7 @@ export default [{
         cover: require("../assets/images/working/works_4042.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/404_ferry/",
-        id: 20,
+        id: 21,
     },
     {
         title: "齒輪轉動",
@@ -138,30 +150,30 @@ export default [{
         cover: require("../assets/images/working/works_4043.jpg"),
         showText:"*點擊圖片連結作品", 
         link: "http://donny821223.000webhostapp.com/works/404_gear/",
-        id: 21,
+        id: 22,
     },
     {
         title: "體育廣告",
         brief: "",
         cover: require("../assets/images/working/works_banner1.jpg"),
-        id: 22,
+        id: 23,
     },
     {
         title: "WM娛樂廣告",
         brief: "",
         cover: require("../assets/images/working/works_banner2.jpg"),
-        id: 23,
+        id: 24,
     },
     {
         title: "遊戲廣告",
         brief: "",
         cover: require("../assets/images/working/works_banner3.jpg"),
-        id: 24,
+        id: 25,
     },
     {
         title: "JP娛樂廣告",
         brief: "",
         cover: require("../assets/images/working/works_banner4.jpg"),
-        id: 25,
+        id: 26,
     },
 ];

@@ -25,9 +25,8 @@ export default ({ match: { params }, imgs}) => {
                 <p style={{color:"#ff3319"}}>{imgs[imgDataIdx].showText}</p>
             </div>
         <div className="nextBtnBox"> 
-            <Link to={`/work/${Number(params.id) > 1 ?  Number(params.id) -1 : 25}`}><div className="btn">prev</div></Link>
-            <Link to={`/work/${Number(params.id) < 25 ?  Number(params.id) +1 : 1}`}><div className="btn2">next</div></Link>
-            {/* <img src={imgs[imgDataIdx +1 ].cover} alt="" /> */}
+            <Link to={`/work/${Number(params.id) > 1 ?  Number(params.id) -1 : 26}`}><div className="btn">prev</div></Link>
+            <Link to={`/work/${Number(params.id) < 26 ?  Number(params.id) +1 : 1}`}><div className="btn2">next</div></Link>
         </div>
         <section className="content">
             <div className="bigIcon" id="bigIcon" onClick={ bigIcon }></div>

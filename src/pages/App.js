@@ -27,7 +27,7 @@ class App extends Component {
 
 
   render() {
-    const { location } = this.props;
+    // const { location } = this.props;
 
     return (
       <HashRouter>
@@ -39,9 +39,9 @@ class App extends Component {
             <Link to="/" className={styles.boxLeft}><img src={require("../assets/images/logo.png")} alt="" /></Link>
             <div className={styles.boxRight}>
               <a href="https://www.lymma.net/designer/profile/4517" className={styles.ui100Text}>UI100</a>
+              <NavLink exact to="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>About</p></NavLink>
               <NavLink to="/work" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>Work</p></NavLink>
-              <NavLink to="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>About</p></NavLink>
-              <Link to="/" className={location.pathname === "/" ? styles.boxTestActive : styles.boxTest}><p>Home</p></Link>
+              <NavLink exact to="/" activeClassName={styles.boxTestActive} className={styles.boxTest}><p>Home</p></NavLink>
             </div>
 
             {/* 漢堡選單 */}
@@ -51,8 +51,8 @@ class App extends Component {
               <div className="navBar" ></div>
             </div>
             <ul className="navZoomout" id="zoom">
-              <Link to="/" className={location.pathname === "/" ? styles.boxTestActive : styles.boxTest}><li className="navLi" style={{ borderTop: '1px solid #eee'}}>Home</li></Link>
-              <NavLink to="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><li className="navLi">About</li></NavLink>
+              <NavLink exact to="/" activeClassName={styles.boxTestActive} className={styles.boxTest}><li className="navLi" style={{ borderTop: '1px solid #eee'}}>Home</li></NavLink>
+              <NavLink exact to="/about" activeClassName={styles.boxTestActive} className={styles.boxTest}><li className="navLi">About</li></NavLink>
               <NavLink to="/work" activeClassName={styles.boxTestActive} className={styles.boxTest}><li className="navLi">Work</li></NavLink>
               <a href="https://www.lymma.net/designer/profile/4517" className={styles.ui100Text} ><li className="navLi" style={{color: '#2aaaff'}}>UI100</li></a>
             </ul>
@@ -61,7 +61,6 @@ class App extends Component {
 
         {/* 內容區 */}
         <section className={styles.content}>
-        
               <Route path="/" exact component={HomePage} />
               <Route path="/Donnywork" exact component={HomePage} />
               <Route path="/about" exact component={AboutPage} />
@@ -69,7 +68,6 @@ class App extends Component {
               <Route path="/work/:id" exact
                 component={(routerProps) => <WorkPageDetail imgs={WorkDetailImg} {...routerProps} />}
               />
-          
         </section>
 
         {/* 底部區 */}
