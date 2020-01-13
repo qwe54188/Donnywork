@@ -27,7 +27,6 @@ class App extends Component {
 
 
   render() {
-    // const { location } = this.props;
 
     return (
       <HashRouter>
@@ -60,7 +59,7 @@ class App extends Component {
         </header>
 
         {/* 內容區 */}
-        <section className={styles.content}>
+        <section className={styles.content} id="content">
               <Route path="/" exact component={HomePage} />
               <Route path="/Donnywork" exact component={HomePage} />
               <Route path="/about" exact component={AboutPage} />
