@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Donnywork/precache-manifest.3eb3d9668b18febf60ab8f7815020823.js"
+  "/Donnywork/precache-manifest.71d6d89728faf5b09abb317450b0f17b.js"
 );
 
 self.addEventListener('message', (event) => {

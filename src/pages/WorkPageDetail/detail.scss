@@ -19,11 +19,29 @@
             .backBtn {
                 position: absolute;
                 left: 0;
-                top: 0;
+                top: 5px;
                 width: 35px;
                 height: 35px;
                 border-radius: 50%;
                 background-color: #ffa629;
+                transition: .2s;
+                &::before {
+                    content: '回上一層';
+                    white-space: nowrap;
+                    position: absolute;
+                    top: 6px;
+                    right: -65px;
+                    color: #828282;
+                    pointer-events: none;
+                    opacity: 0;
+                    transition: .2s;
+                }
+                &:hover {
+                    background-color: #ea9823;
+                    &::before {
+                        opacity: 1;
+                    }
+                }
                 .backBtnIcon {
                     position: absolute;
                     top: 50%;
@@ -36,7 +54,7 @@
                 }
             }
             h1 {
-                font-size: 24px;
+                font-size: 30px;
                 color: #ffa629;
                 margin-bottom: 10px;
                 span {
@@ -56,7 +74,7 @@
             margin: 30px 0 10px 0;
             position: relative;
             transition: .2s;
-            animation: content .2s ease-in;
+            animation: content1 .3s ease-in;
             &:hover {
                 .bigIcon {
                     background-color: rgba(0,0,0,0.3);
@@ -93,6 +111,11 @@
             .btn {
                 position: relative;
                 margin: 0 10px;
+                color: #b1b1b1;
+                transition: .2s;
+                &:hover {
+                    color: #333;
+                }
                 &::before {
                     content: "<";
                     position: absolute;
@@ -103,6 +126,11 @@
             .btn2 {
                 position: relative;
                 margin: 0 10px;
+                color: #b1b1b1;
+                transition: .2s;
+                &:hover {
+                    color: #333;
+                }
                 &::before {
                     content: ">";
                     position: absolute;
@@ -166,7 +194,7 @@
     }
 }
 
-@keyframes content {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+@keyframes content1 {
+    0%{opacity: 0; transform: translateY(10%);}
+    100%{opacity: 1; transform: translateX(0%);}
 }
