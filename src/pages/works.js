@@ -157,5 +157,41 @@ export default [{
     cover: require("../assets/images/workimg/banner_4.png"),
     id: 26
 },
+{
+    title: "SPACE WEB",
+    brief: "MOBILE WEB / APP",
+    cover: require("../assets/images/workimg/web_8.png"),
+    id: 27
+},
+{
+    title: "CASINO OCEAN",
+    brief: "MOBILE WEB / APP",
+    cover: require("../assets/images/workimg/web_9.png"),
+    id: 28
+},
+{
+    title: "CASINO METEORITE",
+    brief: "MOBILE WEB / APP",
+    cover: require("../assets/images/workimg/web_10.png"),
+    id: 29
+},
+{
+    title: "CASINO ORANGE-WHITE",
+    brief: "MOBILE WEB / APP",
+    cover: require("../assets/images/workimg/web_11.png"),
+    id: 30
+},
+{
+    title: "CASINO GAME",
+    brief: "MOBILE WEB / APP",
+    cover: require("../assets/images/workimg/web_12.png"),
+    id: 31
+},
+{
+    title: "DISPLAY PAGE",
+    brief: "MOBILE WEB / APP",
+    cover: require("../assets/images/workimg/web_13.png"),
+    id: 32
+},
 
 ];

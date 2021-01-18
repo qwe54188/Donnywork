@@ -1,14 +1,14 @@
 import React from 'react';
 import "./aimation.scss"
 import styles from './homeBg.module.scss';
-import { Link } from'react-router-dom';
+import { Link } from 'react-router-dom';
 // import WorksLists from '../../components/WorkLists';
 // import WorkData from '../works.js';
 
 
-export default ()=>{
-    return <div className={ styles.homePage }>
-        <section className={ styles.homeBg }>
+export default () => {
+    return <div className={styles.homePage}>
+        <section className={styles.homeBg}>
             <div className="headerBox">
                 <img src={require("../../assets/images/header-02.png")} alt="" className="header header-1"></img>
                 <img src={require("../../assets/images/header-03.png")} alt="" className="header header-2"></img>
@@ -21,28 +21,28 @@ export default ()=>{
                 <img src={require("../../assets/images/header-02.png")} alt="" className="header header-9"></img>
             </div>
 
-            <p className="textStart">D</p>
+            <p className="textStart">J</p>
             <p className="textStart textStart-O">O</p>
-            <p className="textStart textStart-N">N</p>
-            <p className="textStart textStart-N2">N</p>
-            <p className="textStart textStart-Y">Y</p>
+            <p className="textStart textStart-N">S</p>
+            <p className="textStart textStart-N2">H</p>
+            <p className="textStart textStart-Y">.</p>
 
             <div className="textOpenBox">
-                <p className="textOpen textOpen-D">D</p>
+                <p className="textOpen textOpen-D">Ｊ</p>
                 <p className="textOpen textOpen-O">O</p>
-                <p className="textOpen textOpen-N">N</p>
-                <p className="textOpen textOpen-N2">N</p>
-                <p className="textOpen textOpen-Y">Y</p>
+                <p className="textOpen textOpen-N">S</p>
+                <p className="textOpen textOpen-N2">H</p>
+                <p className="textOpen textOpen-Y">.</p>
             </div>
 
             <div className="personalBox">
-                <p className="Ptest">PERSONAL</p> 
-                <p className="Ptest Ptest-2" >DESIGN</p> 
+                <p className="Ptest">PERSONAL</p>
+                <p className="Ptest Ptest-2" >DESIGN</p>
                 <p className="Ptest Ptest-3" >SERIES</p>
             </div>
 
             {/* <div className={ styles.point }></div> */}
-            <Link to="/work" className={ styles.homeBtn }>WORKS<div className={ styles.workicon }>↓</div></Link>
+            <Link to="/work" className={styles.homeBtn}>WORKS<div className={styles.workicon}>↓</div></Link>
         </section>
         {/* <section className={ styles.homeConent }>
             <WorksLists dataSource={ WorkData }/>
