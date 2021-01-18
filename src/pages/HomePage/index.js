@@ -21,18 +21,18 @@ export default () => {
                 <img src={require("../../assets/images/header-02.png")} alt="" className="header header-9"></img>
             </div>
 
-            <p className="textStart">J</p>
+            <p className="textStart">D</p>
             <p className="textStart textStart-O">O</p>
-            <p className="textStart textStart-N">S</p>
-            <p className="textStart textStart-N2">H</p>
-            <p className="textStart textStart-Y">.</p>
+            <p className="textStart textStart-N">N</p>
+            <p className="textStart textStart-N2">N</p>
+            <p className="textStart textStart-Y">Y</p>
 
             <div className="textOpenBox">
-                <p className="textOpen textOpen-D">Ｊ</p>
+                <p className="textOpen textOpen-D">D</p>
                 <p className="textOpen textOpen-O">O</p>
-                <p className="textOpen textOpen-N">S</p>
-                <p className="textOpen textOpen-N2">H</p>
-                <p className="textOpen textOpen-Y">.</p>
+                <p className="textOpen textOpen-N">N</p>
+                <p className="textOpen textOpen-N2">N</p>
+                <p className="textOpen textOpen-Y">Y</p>
             </div>
 
             <div className="personalBox">
