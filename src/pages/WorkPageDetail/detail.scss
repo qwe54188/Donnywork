@@ -8,7 +8,7 @@
     .detail-box {
         position: relative;
         width: 60%;
-        @media screen and(max-width: 700px) {
+        @media screen and (max-width: 700px) {
             width: 90%;
           }      
         
@@ -94,7 +94,7 @@
                 background-position: center;
                 transition: .2s;
                 cursor: pointer;
-                @media screen and(max-width: 700px) {
+                @media screen and (max-width: 700px) {
                     top: 10px;
                     width: 30px;
                     height: 30px;
@@ -155,7 +155,7 @@
     z-index: 99;
     background-color: rgba(0,0,0,0.9);
     overflow-x: auto;
-    @media screen and(max-width: 700px) {
+    @media screen and (max-width: 700px) {
         padding: 15px;
         align-items: center;
       }     
@@ -179,7 +179,7 @@
         color: #fff;
         transition: .2s;
         cursor: pointer;
-        @media screen and(max-width: 700px) {
+        @media screen and (max-width: 700px) {
             width: 40px;
             height: 40px;
             line-height: 40px;

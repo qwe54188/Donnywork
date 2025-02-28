@@ -4,12 +4,12 @@
     .aboutArea {
         display: flex;
         padding: 30px 8%;
-        @media screen and(max-width:850px) {
+        @media screen and (max-width:850px) {
             flex-direction: column;
         }
         .myImg {
             width: 20%;
-            @media screen and(max-width:850px) {
+            @media screen and (max-width:850px) {
                 width: 100%;
                 text-align: center;
                 margin-bottom: 20px;
@@ -34,7 +34,7 @@
         .textAbout {
             width: 60%;
             line-height: 24px;
-            @media screen and(max-width:850px) {
+            @media screen and (max-width:850px) {
                 width: 100%;
             }
         }
@@ -47,12 +47,12 @@
         padding: 30px 8%;
         box-sizing: border-box;
         background: linear-gradient(to right, #ff7d4d 0%, #a642ff 100%);
-        @media screen and(max-width:850px) {
+        @media screen and (max-width:850px) {
             flex-direction: column;
         }
         .experienceBox {       
             width: 80%;
-            @media screen and(max-width:850px) {
+            @media screen and (max-width:850px) {
                 width: 100%;
             }
             color: #fff;
@@ -61,19 +61,19 @@
                 width: 100%;
                 padding: 15px 0px;
                 border-bottom: 1px solid #ffffff75;
-                @media screen and(max-width:850px) {
+                @media screen and (max-width:850px) {
                     display: block;
                 }
                 .boxRight {
                 display: flex;
                 width: 25%;
-                @media screen and(max-width:850px) {
+                @media screen and (max-width:850px) {
                     display: block;
                     width: 100%;
                 }
                 .expText {
                     width: 35%;
-                    @media screen and(max-width:850px) {
+                    @media screen and (max-width:850px) {
                         width: 25%;
                     }
                     p {
@@ -86,7 +86,7 @@
                 .jobText {
                     margin-left: 15px;
                     line-height: 25px;
-                    @media screen and(max-width:850px) {
+                    @media screen and (max-width:850px) {
                         display: flex;
                     }
                     p {
@@ -94,7 +94,7 @@
                         font-weight: 300;
                     }
                     .jobTextIn {
-                        @media screen and(max-width:850px) {
+                        @media screen and (max-width:850px) {
                             margin-left: 10px;
                         } 
                     }
@@ -109,7 +109,7 @@
                 p {
                     font-size: 14px;
                     font-weight: 300;
-                    @media screen and(max-width:850px) {
+                    @media screen and (max-width:850px) {
                         padding-left: 15px;
                     }
                 }
@@ -125,13 +125,13 @@
         display: flex;
         padding: 30px 8%;
         box-sizing: border-box;
-        @media screen and(max-width:850px) {
+        @media screen and (max-width:850px) {
             flex-direction: column;
         }
         .skillsImg {
             width: 80%;
             display: flex;
-            @media screen and(max-width:850px) {
+            @media screen and (max-width:850px) {
                 width: 100%;
                 justify-content: space-between;
                 margin-top: 20px;
@@ -162,7 +162,7 @@
 
 :global(.title) {
     width: 20%;
-    @media screen and(max-width:850px) {
+    @media screen and (max-width:850px) {
         width: 100%;
     }
 }
