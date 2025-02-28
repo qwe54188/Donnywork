@@ -16,7 +16,7 @@ export default () => {
             </div>
             <div className={styles.textAbout}>
                 <p>
-                    您好！我是方嘉勛，出社會工作3年多，工作職位是網頁設計師；
+                    您好！我是方嘉勛，出社會工作7年多，工作職位是網頁設計師；
                     <br />
                     剛出社會工作在台中，在這學習到對色彩的敏銳度、網頁製作細節、設計規範等等...讓我從網頁零基礎到已經能獨立完成設計製作，
                     而在這不只學習到設計也學習到些程式語言(HTML、CSS)，讓自己所設計的東西做成實體，而不僅在上班學習，我也在下班之餘時間參加了UI100活動，
@@ -91,13 +91,43 @@ export default () => {
                             <p>工作經驗 4 :</p>
                         </div>
                         <div className={styles.jobText}>
-                            <p>2020/11 ~ 仍在職</p>
+                            <p>2020/11 ~ 2021/08</p>
                             <p className={styles.jobTextIn}>耐思人工智能科技</p>
                         </div>
                     </div>
                     <div className={styles.boxLeft}>
                         <h3>工作內容：</h3>
                         <p>1. 維護及美化網頁 2. 設計廣告圖片 3. 網頁切版/動畫</p>
+                    </div>
+                </div>
+                <div className={styles.box} style={{ border: "0" }}>
+                    <div className={styles.boxRight}>
+                        <div className={styles.expText}>
+                            <p>工作經驗 4 :</p>
+                        </div>
+                        <div className={styles.jobText}>
+                            <p>2021/08 ~ 2022/07</p>
+                            <p className={styles.jobTextIn}>華奧科技公司</p>
+                        </div>
+                    </div>
+                    <div className={styles.boxLeft}>
+                        <h3>工作內容：</h3>
+                        <p>1. 維護及美化網頁 2. 設計廣告圖片 </p>
+                    </div>
+                </div>
+                <div className={styles.box} style={{ border: "0" }}>
+                    <div className={styles.boxRight}>
+                        <div className={styles.expText}>
+                            <p>工作經驗 4 :</p>
+                        </div>
+                        <div className={styles.jobText}>
+                            <p>2022/08 ~ 仍在職</p>
+                            <p className={styles.jobTextIn}>尤米爾科技有限公司</p>
+                        </div>
+                    </div>
+                    <div className={styles.boxLeft}>
+                        <h3>工作內容：</h3>
+                        <p>1. 製作活動頁面 2. 設計廣告圖片</p>
                     </div>
                 </div>
                 {/* <div className={styles.box} style={{ border: "0" }}>
