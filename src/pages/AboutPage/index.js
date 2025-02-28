@@ -85,13 +85,13 @@ export default () => {
                         <p>1. 設計網頁、手機介面套版</p>
                     </div>
                 </div>
-                <div className={styles.box} style={{ border: "0" }}>
+                <div className={styles.box}>
                     <div className={styles.boxRight}>
                         <div className={styles.expText}>
                             <p>工作經驗 4 :</p>
                         </div>
                         <div className={styles.jobText}>
-                            <p>2020/11 ~ 2021/08</p>
+                            <p>2020/11 ~ 2021/07</p>
                             <p className={styles.jobTextIn}>耐思人工智能科技</p>
                         </div>
                     </div>
@@ -100,10 +100,10 @@ export default () => {
                         <p>1. 維護及美化網頁 2. 設計廣告圖片 3. 網頁切版/動畫</p>
                     </div>
                 </div>
-                <div className={styles.box} style={{ border: "0" }}>
+                <div className={styles.box}>
                     <div className={styles.boxRight}>
                         <div className={styles.expText}>
-                            <p>工作經驗 4 :</p>
+                            <p>工作經驗 5 :</p>
                         </div>
                         <div className={styles.jobText}>
                             <p>2021/08 ~ 2022/07</p>
@@ -118,7 +118,7 @@ export default () => {
                 <div className={styles.box} style={{ border: "0" }}>
                     <div className={styles.boxRight}>
                         <div className={styles.expText}>
-                            <p>工作經驗 4 :</p>
+                            <p>工作經驗 6 :</p>
                         </div>
                         <div className={styles.jobText}>
                             <p>2022/08 ~ 仍在職</p>
